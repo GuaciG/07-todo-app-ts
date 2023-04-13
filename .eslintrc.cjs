@@ -12,6 +12,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off'
   }
 }
